@@ -1,0 +1,33 @@
+body {
+	background-color: #1E90FF;
+	background-image: url("code2.jpg");
+	background-size: 100%;
+	z-index: 4;
+}
+.block1 {
+	background: #FFD700;
+   	margin-top: 20%;
+   	margin-left: 35%;
+   	margin-right: 35%;
+   	height: 240px;
+    border: 1px solid #000;
+    position: relative;
+}
+.reg {
+	font-size: 150%;
+	}
+input {
+	margin-left: 30%;
+	margin-right: 5%;
+	width: 250px;
+	height: 30px;
+}
+.block2 {
+	margin-top: 0.5%;
+}
+.block3 {
+	margin-top: 2.5%;
+}
+.block4 {
+	margin-top: 3%;
+}

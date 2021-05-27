@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD
+  Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+ 
+<web-app>
+ 
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>Index</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern>/Index</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Signin</servlet-name>
+    <servlet-class>Signin</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Signin</servlet-name>
+    <url-pattern>/Signin</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Profile</servlet-name>
+    <servlet-class>Profile</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Profile</servlet-name>
+    <url-pattern>/Profile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Create</servlet-name>
+    <servlet-class>Create</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Create</servlet-name>
+    <url-pattern>/Create</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Remove</servlet-name>
+    <servlet-class>Remove</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Remove</servlet-name>
+    <url-pattern>/Remove</url-pattern>
+  </servlet-mapping>  
+
+  <servlet>
+    <servlet-name>Changepswd</servlet-name>
+    <servlet-class>Changepswd</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>Changepswd</servlet-name>
+    <url-pattern>/Changepswd</url-pattern>
+  </servlet-mapping>  
+ 
+</web-app>
